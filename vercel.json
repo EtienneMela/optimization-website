@@ -1,0 +1,13 @@
+{
+    "headers": [
+      {
+        "source": "assets/tether/tether.min.css",
+        "headers" : [
+          {
+            "key" : "Accept-encoding",
+            "value" : "gzip"
+          }
+        ]
+      }
+    ]
+  }
