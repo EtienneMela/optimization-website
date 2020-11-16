@@ -1,22 +1,15 @@
 {
-    "headers": [
+    "routes": [
       {
-        "source": "/assets/(.*)",
-        "headers" : [
-          {
-            "key" : "Content-Encoding",
-            "value" : "gzip"
-          }
-        ]
-      },
+        "src": "/assets/(.*)",
+        "headers": { 
+          "Expires": "Wed, 6 Oct 2021 00:00:00 GMT",
+          "Accept-Encoding": "gzip"
+        },
       {
-        "source": "/assets/(.*)",
-        "headers" : [
-          {
-            "key" : "Expires",
-            "value" : "Wed, 6 Oct 2021 00:00:00 GMT"
-          }
-        ]
+        "src": "assets/images/(.*)",
+        "headers": { "cache-control": "s-maxage=604800" },
+        "dest": "/images/$1"
       }
     ]
   }
