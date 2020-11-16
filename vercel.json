@@ -8,12 +8,13 @@
         }
       },
       {
-        "src": "/assets/(.*)",
-        "headers": { 
-          "Expires": "Wed, 6 Oct 2021 00:00:00 GMT",
-          "Accept-Encoding": "gzip"
-        }
+      "src": "/assets/web/assets/mobirise-icons2/mobirise2.ttf",
+      "headers": { 
+        "Accept-Encoding": "gzip",
+        "server": "Vercel"
       },
+      "dest": "/images/$1"
+    },
       {
         "src": "/assets/images/(.*)",
         "headers": { 
