@@ -1,11 +1,20 @@
 {
     "headers": [
       {
-        "source": "assets/tether/tether.min.css",
+        "source": "/assets/tether/tether.min.css",
         "headers" : [
           {
-            "key" : "Accept-encoding",
+            "key" : "Accept-Encoding",
             "value" : "gzip"
+          }
+        ]
+      },
+      {
+        "source": "/assets/*",
+        "headers" : [
+          {
+            "key" : "Expires",
+            "value" : "Wed, 6 Oct 2021 00:00:00 GMT"
           }
         ]
       }
