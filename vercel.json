@@ -10,10 +10,8 @@
       {
       "src": "/assets/web/assets/mobirise-icons2/mobirise2.ttf",
       "headers": { 
-        "Accept-Encoding": "gzip",
-        "server": "Vercel"
-      },
-      "dest": "/images/$1"
+        "Accept-Encoding": "gzip"
+      }
     },
       {
         "src": "/assets/images/(.*)",
