@@ -5,9 +5,10 @@
         "headers": { 
           "Expires": "Wed, 6 Oct 2021 00:00:00 GMT",
           "Accept-Encoding": "gzip"
-        },
+        }
+      },
       {
-        "src": "assets/images/(.*)",
+        "src": "/assets/images/(.*)",
         "headers": { "cache-control": "s-maxage=604800" },
         "dest": "/images/$1"
       }
