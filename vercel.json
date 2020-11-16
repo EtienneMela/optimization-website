@@ -1,7 +1,7 @@
 {
     "headers": [
       {
-        "source": "/assets/tether/tether.min.css",
+        "source": "/assets/(.*)",
         "headers" : [
           {
             "key" : "Accept-Encoding",
